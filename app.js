@@ -9,7 +9,11 @@ async function main(){
 
    let dataProcessor = Processor.Process(data);
    let users = new Table(dataProcessor);
-   console.log(users.rows);
+   
+   users.rows.push(["Carlos", "Formação HTML", "PHP", "32"]);
+
+   console.log(users.RowCount);
+   console.log(users.ColumnCount);
 
 }
 

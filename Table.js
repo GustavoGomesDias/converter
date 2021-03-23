@@ -8,6 +8,15 @@
         this.rows = arr;
     }
 
+    // método do tipo gét, que só precisa ser chamado. Como se fosse um atributo
+    get RowCount(){
+        return this.rows.length;
+    }
+
+    get ColumnCount(){
+        return this.header.length;
+    }
+
  }
 
  module.exports = Table;
