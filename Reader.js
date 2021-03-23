@@ -16,9 +16,3 @@ class Reader {
 }
 
 module.exports = Reader;
-
-/* 
-util => lib com várias coias últeis 😉
-
-let newFunction = util.promisify(FunctionOld) => tranformar a FuncOld e uma nova função com promise
-*/
