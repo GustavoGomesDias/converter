@@ -10,7 +10,7 @@ class Processor {
             rows.push(arr);
         });
 
-        console.log(rows);
+        return rows;
     }
 }
 
